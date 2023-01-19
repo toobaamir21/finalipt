@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Rubik+Marker+Hatch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Pacifico&family=Rubik+Marker+Hatch&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+   
+}
+.main{
+    width: 100vw;
+    height: 90vh;
+    
+
+}
+.contain{    
+     /* background-color: lightblue; */
+   margin: 3%;
+   margin-left: 3.5%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr); ;
+    grid-template-rows: repeat(3,1fr);
+    grid-auto-rows: 200px;
+    grid-column-gap: 1%;
+    grid-row-gap: 1%;
+    height: 100%;
+    width: 93%;
+}
+.pic1{
+    /* background-color: blanchedalmond; */
+     background-image: url(ATTA.jpg);
+    background-size: 22vw 27vh;
+    height: 27vh;
+    width: 22vw; 
+    border-radius: 10px;
+    transition: all .5s ease;
+    
+
+}
+.pic1:hover{
+    width: 22vw;
+    height: 27vh;
+    background-size: 24vw 29vh;
+    cursor: pointer;
+
+}
+.pic2{
+    /* background-color: tomato; */
+    background-image: url(Autumn-in-Hunza-.jpg);
+    background-size: 22vw 27vh;
+    height: 27vh;
+    width: 22vw; 
+    border-radius: 10px;
+    transition: all .5s ease;
+}
+.pic2:hover{
+    width: 22vw;
+    height: 27vh;
+    background-size: 24vw 29vh;
+    cursor: pointer;
+}
+.pic3{
+    /* background-color: green; */
+    background-image: url(kalash.jpg);
+    background-size: 22vw 27vh;
+    height: 27vh;
+    width: 22vw; 
+    border-radius: 10px;
+    transition: all .5s ease;
+}
+.pic3:hover{
+    width: 22vw;
+    height: 27vh;
+    background-size: 24vw 29vh;
+    cursor: pointer;
+}
+.pic4{
+    /* background-color: purple; */
+    background-image: url(fairycamp.jpg);
+    background-size: 22vw 27vh;
+    height: 27vh;
+    width: 22vw; 
+    border-radius: 10px;
+    transition: all .5s ease;
+}
+
+.pic4:hover{
+    width: 22vw;
+    height: 27vh;
+    background-size: 24vw 29vh;
+    cursor: pointer;
+}
+.pic5{
+    /* background-color: lightcoral; */
+    background-image: url(Gorakh-Hills4.jpg);
+    background-size: 22vw 27vh;
+    height: 27vh;
+    width: 22vw; 
+    border-radius: 10px;
+    transition: all .5s ease;
+}
+.pic5:hover{
+    width: 22vw;
+    height: 27vh;
+    background-size: 24vw 29vh;
+    cursor: pointer;
+}
+.pic6{
+    /* background-color: lightpink;   */
+     background-image: url(naran.jpg);
+    background-size: 22vw 27vh;
+    height: 27vh;
+    width: 22vw; 
+    border-radius: 10px;
+    transition: all .5s ease;
+
+}
+.pic6:hover{
+    width: 22vw;
+    height: 27vh;
+    background-size: 24vw 29vh;
+    cursor: pointer;
+}
+.pic7{
+    /* background-color: lightseagreen; */
+    background-image: url(KAGHAN.jpg);
+    background-size: 22vw 27vh;
+    height: 27vh;
+    width: 22vw; 
+    border-radius: 10px;
+    transition: all .5s ease;
+}
+.pic7:hover{
+    width: 22vw;
+    height: 27vh;
+    background-size: 24vw 29vh;
+    cursor: pointer;
+}
+.pic8{
+    /* background-color: lightgoldenrodyellow; */
+    background-image: url(khunjerabnew.jpg);
+    background-size: 22vw 27vh;
+    height: 27vh;
+    width: 22vw; 
+    border-radius: 10px;
+    transition: all .5s ease;
+}
+.pic8:hover{
+    width: 22vw;
+    height: 27vh;
+    background-size: 24vw 29vh;
+    cursor: pointer;
+}
+.pic9{
+    /* background-color: blueviolet; */
+    background-image: url(neelum.jpg);
+    background-size: 22vw 27vh;
+    height: 27vh;
+    width: 22vw; 
+    border-radius: 10px;
+    transition: all .5s ease;
+}
+.pic9:hover{
+    width: 22vw;
+    height: 27vh;
+    background-size: 24vw 29vh;
+    cursor: pointer;
+}
+.pic10{
+    /* background-color: pink; */
+    background-image: url(margala.jpg);
+    background-size: 22vw 27vh;
+    height: 27vh;
+    width: 22vw;
+    border-radius: 10px; 
+    transition: all .5s ease;
+}
+.pic10:hover{
+    width: 22vw;
+    height: 27vh;
+    background-size: 24vw 29vh;
+    cursor: pointer;
+}
+.pic11{
+    /* background-color: palevioletred; */
+    background-image: url(raka.jpg);
+    background-size: 22vw 27vh;
+    height: 27vh;
+    width: 22vw; 
+    border-radius: 10px;
+    transition: all .5s ease;
+}
+.pic11:hover{
+    width: 22vw;
+    height: 27vh;
+    background-size: 24vw 29vh;
+    cursor: pointer;
+}
+.pic12{
+    /* background-color: brown; */
+    background-image: url(USHUUU.jpg);
+    background-size: 22vw 27vh;
+    height: 27vh;
+    width: 22vw; 
+    border-radius: 10px;
+    transition: all .5s ease;
+    
+}
+.pic12:hover{
+    width: 22vw;
+    height: 27vh;
+    background-size: 24vw 29vh;
+    cursor: pointer;
+    
+}
+.text{
+    opacity: 1;
+    text-align: center;
+    margin-top: 23%;
+    color: whitesmoke;
+    font-size: 2.3rem;
+     font-family: 'Rubik Marker Hatch', cursive;
+ 
+    /* font-family: 'Rubik Distressed', cursive; */
+
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+
+

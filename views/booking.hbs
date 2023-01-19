@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/booking.css">
+    
+    <!-- <link rel="stylesheet" href="nav.css">
+    <link
+    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    rel="stylesheet"
+  /> -->
+    
+    </style>
+  </head>
+  <body>
+    <div class="container">
+       
+       <form action="/booking" method="POST" class="book-form" >
+        <div class="packages">
+            <h1>SELECT YOUR FAVORITE PACKAGE</h1>
+           
+                <div class="package"> <input type="radio"  name="pkg"  value="Package1"><u> Package 1:</u>
+                  <ul class="ul">
+                    <li class="li">Week: <span class="span"> One</span></li>
+                    <li class="li">Places: 
+                      <span class="span"> Margala Hills, Naran, Kaghan, Swat, Murree, Khujerab Pass </span></li>
+                    <li class="li">Amount:<span class="span"> Rs:14000/-</span></li>
+                  </ul>
+                </div>
+                <div class="package"><input type="radio" name="pkg" value="Package2" ><u> Package 2:</u>
+                  <ul class="ul">
+                    <li class="li">Week: <span class="span">  Two</span></li>
+                      
+                    <li class="li">Places: <span class="span"> Margala Hills, Naran, Kaghan, Swat, Murree, Khunjerab Pass, Baltit Fort, Chitral Valley </span></li>
+                    <li class="li">Amount: <span class="span">Rs:17000/-</span></li>
+                  </ul>
+                </div>
+                <div class="package"><input type="radio" name="pkg" value="Package3" ><u>Package 3:</u>
+                  <ul class="ul">
+                    <li class="li">Week: <span class="span"> Three</span></li>
+                    <li class="li">Places: <span class="span"> Margala Hills, Naran, Kaghan, Swat, Atabad Lake, Neelum Valley, Murree, Kashmir, Khunjerab Pass, Rohtas Forest </span></li>
+                    <li class="li">Amount:<span class="span"> Rs:19000/-</span></li>
+                  </ul></div>
+                <div class="package"><input type="radio" name="pkg"  value="Package4" ><u>Package 4:</u>
+                  <ul class="ul">
+                    <li class="li">Week: <span class="span">Four</span></li>
+                    <li class="li">Places:<span class="span"> Margala Hills, Naran, Kaghan, Swat, Boyun Village, Ushu Forest, Hunza Valley, Pasu Cones, Atabad Lake, Kalash Valley, Gorakh Hills, Fairy Meadows, Khunjerab Pass, Rohtas Fort, Rakaposhi Ease Camp </span> </li>
+                    <li class="li">Amount: <span class="span">Rs:20000/-</span></li>
+        
+                  </ul>
+                  
+                </div>
+               
+              
+            </div>
+             
+        
+        <div class="contain">
+            
+        
+            
+              <div class="textbox"><input type="name" name="name" placeholder="Name" /></div>
+
+              <div class="textbox">
+                <input type="email" name="email" placeholder="Email id:" />
+              </div>
+            
+              <div class="textbox">
+                <input type="number" name="phone" placeholder="Phone Number:" />
+              </div>
+    
+              <div class="textbox">
+                <input type="number" name="cnumber" placeholder="Credit Card Number" />
+              </div>
+              
+    
+              <div class="select">
+                <select name="myplace" >
+                  <option value="select" selected>Select Location</option>
+                  <option>Karachi</option>
+                  <option>Lahore</option>
+                  <option>Islamabad</option>
+                  <option>Hyderabad</option>
+                  <option>Quetta</option>
+                  <option>Multan</option>
+                  <option>Peshawar</option>
+                  <option>Sialkot</option>
+                  <option>Faisalabad</option>
+                  <option>Gujranwala</option>
+                  <option>Sukkur</option>
+                  <option>Bhawalpur</option>
+                </select>
+              </div>
+              <div class="select">
+                <select name="mypoint">
+                  <option value="select" selected>Ride Points</option>
+                  <option >Shadman No 2 Stop</option>
+                  <option >Sultan Mehmood Stop</option>
+                  <option >Parate Ground Stop</option>
+                  <option >Charminar Stop</option>
+                  <option >Quetta Town Bus Stop</option>
+                  <option >Bosan Town Stop</option>
+                  <option >Shah Alam Tehsil Stop</option>
+                  <option >Sialkot Stop</option>
+                  <option >Madina Town Stop</option>
+                  <option>Aroop Town Stop</option>
+                  <option >Rohri Town Stop</option>
+                  <option >Bhawalpur Stop</option>
+                </select>
+              </div>
+  
+              <div class="select">
+                <select name="myweek">
+                  <option value="select" selected>Select Ride Time</option>
+                  <option >9.00 </option>
+                  <option >11.00</option>
+                  
+                </select>
+              </div>
+                <div class="select">
+                <select name="AMorPM" >
+                  <option value="select" selected>Select AM/PM</option>
+                  <option >AM </option>
+                  <option >PM</option>
+                  
+                </select>
+              </div>
+               <div class="radioinp">
+               <input class="inp" type="radio" name="gender"  value="male" />MALE
+               <input class="inp" type="radio" name="gender" value="female" />FEMALE
+               </div>
+              
+               <div class="btns">
+                
+              <button id="buttonbook2" type="submit">Submit</button></div>
+          
+         
+        </div>
+    
+       </form>
+      
+    </div>
+
+    
+  </body>
+</html>

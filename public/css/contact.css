@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lora&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: whitesmoke;
+    
+}
+.main{
+    background-image: url(booking.jpg);
+    background-size: 100vw 100vh;
+    height: 100vh;
+    padding: .1px;
+    
+}
+.contact-form{
+
+    width: 100%;
+    
+    display: grid;
+    grid-template-columns: repeat(2,.5fr);
+    grid-template-rows: repeat(1,.5fr);
+}
+
+.contact-form{
+    margin-top: 7%;
+}
+
+h1{
+    
+    color: black;
+    font-weight: 700px;
+    font-size: 40px;
+    text-decoration: underline;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    word-spacing: 7px;
+
+
+    margin-top: 2%;
+    letter-spacing: 3px;
+}
+p{
+    color: blue;
+    
+    font-size: 1.9rem;
+    text-decoration: underline;
+    text-align: center;
+    font-family:cursive;
+    word-spacing: 3px;
+
+font-weight: 600;
+    margin-top: 2%;
+    
+    
+
+}
+h4{
+    font-size: 1.3rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.number{
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 7%;
+}
+.address{
+    font-size: 1.2rem;
+    margin-bottom: 7%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.textbox{
+    margin-bottom: 4%;
+}
+.txtinp{
+    width: 50%;
+    height: 25px;
+    border-radius: 2px;
+    border: 1px solid black;
+    color: black;
+    padding: 3px;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 5px;
+    font-size:.9rem;
+}
+.area{
+    border-radius: 5px ;
+    padding: 12px;
+    font-size:1rem;
+    background: transparent;
+    border: 1px solid black;
+    width: 70%;
+}
+.c-form{
+    border: 0px solid black;
+    padding: 2%;
+    align-self: start;
+    border-radius: 9px;
+    
+    width: 80%;
+    box-shadow: 5px 5px 30px black;
+} 
+.info{
+    justify-self: center;
+    border: 0px solid black;
+    padding: 2%;
+    border-radius: 9px;
+    box-shadow: 5px 5px 30px black;
+    
+    width: 80%;
+    
+}
+button{
+    width: 13%;
+    height: 5vh;
+ 
+    margin-top: 1.7%;
+    border-radius: 5px;
+    border: 0;
+    background-color: darkblue;
+    color: whitesmoke;
+    cursor:pointer;
+    
+  
+    
+}
+textarea{
+    resize: none;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/submit.css">
+</head>
+<body>
+    <div class="main">
+    <h1>CONGRATULATIONS! YOUR BOOKING IS DONE</h1>
+    <h2>Click button to generate Token Number and save it for later verification </h2>
+    
+    <a href="submit"><button id="btn">Token Number</button></a>
+       <h3 class="token">Your Token Number is: <span id="err"><u>{{error}}{{cnum}}</u></span></h3>
+    </div>
+    <script>
+        var b = document.getElementById('btn')
+         var c = document.getElementById('err')
+        b.addEventListener("click",(e)=>{
+            b.setAttribute("hidden","true")
+             
+            
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/nav.css">
+    <link
+    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    rel="stylesheet"
+  />
+  </head>
+  <body>
+    <div class="main">
+      <div class="menu">
+        <ul>
+          <li class="home">
+            <a href="/"> <i class="bx bx-home" id="homebtn"></i> </a>
+          </li>
+          <li class="booking">
+            <a href="booking">
+              <i class="bx bx-book-content" id="bookingbtn"></i
+            ></a>
+          </li>
+          <li class="places">
+            <a href="gallery"> <i class="bx bxs-plane-alt" id="placebtn"></i></a>
+          </li>
+          <li class="contact">
+            <a href="contact"> <i class="bx bx-phone" id="contactbtn"></i> </a>
+          </li>
+        </ul>
+      </div>
+      <h1>Contact Us</h1>
+      <p>For more information or any query</p>
+      
+      <div class="contact-form">
+        <div class="info">
+          <h4> Email us at:</h4>
+          <div class="address">travelagency@gmail.com</div>
+        
+        
+          <h4>  Phone Number:</h4>
+          <div class="number">111-222-333-444</div>
+        
+        <h4>  Follow us on:</h4>
+        <div class="number">https://www.facebook.com</div>
+       
+      </div>
+        <form action="/contact" method="POST" class="c-form">
+        <div class="textbox">
+            <input 
+            class="txtinp"
+              type="name"
+              name="name"
+              id=""
+              placeholder="Your Name"
+            />
+          </div>
+          <div class="textbox">
+            <input 
+            class="txtinp"
+              type="email"
+              name="email"
+              id=""
+              placeholder="Your Email Address"
+            />
+          </div>
+          <div class="textbox">
+            <input 
+            class="txtinp"
+              type="number"
+              name="phone"
+              id=""
+              placeholder="Your Phone Number"
+            />
+          </div>
+          <div class="query">
+            <textarea
+              class="area"
+              name="message"
+              width: 6%;
+               cols="45"
+               rows="10"
+    
+              
+              placeholder="Your Query!"
+            ></textarea>
+          </div>
+          <div class="btn"><button type="submit">Submit</button></div>
+        </form>
+    
+      </div>
+    </div>
+  </body>
+</html>

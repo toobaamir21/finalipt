@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    position: fixed;
+    width: 3vw;
+    height: 100vh;
+    background-color: black;
+    text-align: center;
+    margin-top: -1px;
+    
+    
+} 
+
+
+ul li{
+    
+    line-height: 15vh;
+    list-style: none;
+   
+
+}
+ul li a{
+    text-decoration: none;
+}
+ul li a i{
+    color: white;
+}
